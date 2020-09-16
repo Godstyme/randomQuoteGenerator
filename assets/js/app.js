@@ -1,7 +1,7 @@
 // an event that generate a quote 
 const btnGenerator = document.querySelector('.btn').addEventListener('click', () =>{
   const displayQuote = document.querySelector('.quote')
-  // an api fetch that fetches the quote from rapidapi
+  // an api fetch that fetches random quotes from rapidapi
   fetch("https://quotes15.p.rapidapi.com/quotes/random/?language_code=en", {
 	"method": "GET",
 	"headers": {
