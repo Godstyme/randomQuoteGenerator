@@ -1,4 +1,4 @@
-// an event that generate a quote
+// an event click that generate a quote
 const btnGenerator = document.querySelector('.btn').addEventListener('click', () =>{
   const displayQuote = document.querySelector('.quote')
   // an api fetch that fetches random quotes from rapidapi
