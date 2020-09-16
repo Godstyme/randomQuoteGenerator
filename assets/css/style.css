@@ -1,0 +1,97 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+main{
+  height: 100vh;
+  width: 100%;
+  background: #A52A2A;
+}
+main > div.quoteHolder{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px 10px 0px;
+}
+p.quote{
+  width: 60%;
+  background: #fff;
+  box-shadow: 0px 0px 4px #000;
+  padding: 10px;
+  font-size: 1.9em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  visibility: hidden;
+}
+div.btnHolder{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+button.btn{
+  height: 2em;
+  background: #F6F6F6;
+  font-size: 2em;
+  font-weight: bolder;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  padding: 2px 8px;
+}
+@media screen and (min-width: 200px) and (max-width: 299px) {
+  button.btn{
+    height: 2em;
+    background: #F6F6F6;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    padding: 2px 8px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  p.quote{
+    width: 80%;
+    background: #fff;
+    box-shadow: 0px 0px 4px #000;
+    font-size: 1.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    visibility: hidden;
+  }
+  button.btn{
+    height: 2em;
+    background: #F6F6F6;
+    font-size: 2em;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    padding: 2px 8px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 1026px) {
+  p.quote{
+    width: 80%;
+    background: #fff;
+    box-shadow: 0px 0px 4px #000;
+    font-size: 1.9em;
+    font-family: monospace;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    visibility: hidden;
+  }
+  button.btn{
+    height: 2.5em;
+    background: #F6F6F6;
+    font-size: 2em;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    box-shadow: 0px 0px 3px #808080;
+    padding: 2px 8px;
+  }
+}
